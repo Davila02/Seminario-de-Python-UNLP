@@ -24,3 +24,6 @@ def mas_influyente(player_stats):
 
 def promedio_goles(goals):
     return sum(goals)/25
+
+def promedio_goleador(goals):
+    return goals/25
