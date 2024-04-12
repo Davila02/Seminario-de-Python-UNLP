@@ -21,3 +21,6 @@ def calcular_promedio_ponderado(player_stats):
 
 def mas_influyente(player_stats):
     return max(calcular_promedio_ponderado(player_stats), key=lambda elem:elem[1])[0]
+
+def promedio_goles(goals):
+    return sum(goals)/25
